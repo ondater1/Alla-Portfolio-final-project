@@ -1,7 +1,51 @@
-h1 {
-    font-family: 'Raleway Dots';
+:root {
+    --primary-color: #35502E;
+    --secondary-color: #99B67D;
+    --highlight-color: #EFC980;
+    --primary-font: 'Volkhov', serif;
+    --highlight-font: 'Raleway Dots';
 }
-p {
-    font-family: 'Volkhov',
-    serif;
+
+h1 {
+    font-family: var(--highlight-font);
+    color: var(--highlight-color);
+}
+
+h4, h5 {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+.hero {
+    background-color: var(--primary-color);
+    text-align: center;
+    margin:20px;
+    border-radius: 30px;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 70px;
+}
+.hero h4 {
+margin-top: 30px;
+}
+
+.hero h5 {
+    margin: 40px 0;
+}
+
+.intro-image{
+    max-width: 100%;
+}
+
+.hero .btn-branding {
+    background-color: var(--highlight-color);
+    border: #182903;
+    border-radius: 20px;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    margin-top: 30px;
+    line-height: 27px;
+    padding: 8px 14px;
 }
