@@ -6,12 +6,15 @@
     --highlight-font: 'Raleway Dots';
 }
 
-h1,h2 {
+h1 {
     font-family: var(--highlight-font);
     color: var(--highlight-color);
-}
-h1 {
     font-size: 96px;
+}
+h2 {
+    font-family: var(--highlight-font);
+    color: var(--primary-color);
+    font-weight:bolder;
 }
 
 p {
@@ -21,14 +24,14 @@ p {
     line-height: 30px
 }
 
-h4, h5 {
+h3, h4, h5 {
     font-family: var(--primary-font);
     color: var(--secondary-color);
 }
 
 .btn-common {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--highlight-color);
     border: #182903;
     border-radius: 20px;
     font-family: var(--primary-font);
@@ -41,7 +44,7 @@ h4, h5 {
 .hero {
     background-color: var(--primary-color);
     text-align: right;
-    padding: 100px 0;
+    padding: 100px;
 }
 
 .hero h4 {
@@ -70,14 +73,56 @@ margin-top: 30px;
     padding: 20px 40px;
 }
 
+.about {
+    padding: 100px 0;
+}
+
+
+.about h1 {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+}
+
+.about h2 {
+    background-color: var(--secondary-color);
+    margin-bottom: 50px;
+    padding: 5px 2px;
+}
+
+.about .about-text {
+    margin-top: 30px;
+}
+
+.about .tools p {
+text-align: center;
+font-size: 11px;
+line-height: 1.5;
+}
+
+.about .certifications h5 {
+    text-align: center;
+}
+
+.about-image {
+    max-width: 100%;
+}
+
+.about .responsive-cert {
+    height: 220.47px;
+}
+
 @media (max-width:765px) {
 
+     .container {
+         max-width: 100%;
+     }
+
     h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     h4, h5 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     p {
@@ -98,6 +143,12 @@ margin-top: 30px;
 
     .hero .btn-branding {
         margin-top: 10px;
+    }
+
+
+    .about .certifications h5 {
+        margin-top: 20px;
+        font-size: 25px;
     }
 
 }
