@@ -118,6 +118,38 @@ line-height: 1.5;
     width: auto;
 }
 
+.projects h1 {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+}
+
+.projects .subtitle {
+    font-size: 46px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.projects .subsubtitle {
+    margin-bottom: 30px;
+}
+
+.projects .btn-code {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: #182903;
+    border-radius: 20px;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 27px;
+    padding: 8px 14px;
+}
+
+.projects .project-row {
+    background-color: beige;
+    padding: 20px 0;
+}
+
 @media (max-width:992px) {
 
     h1 {
