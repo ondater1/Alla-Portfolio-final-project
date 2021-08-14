@@ -29,6 +29,11 @@ h3, h4, h5 {
     color: var(--secondary-color);
 }
 
+a:hover {
+    color: var(--highlight-color);
+    opacity: 0.8;
+}
+
 .btn-common {
     background-color: var(--primary-color);
     color: var(--highlight-color);
@@ -40,6 +45,7 @@ h3, h4, h5 {
     line-height: 27px;
     padding: 8px 14px;
 }
+
 
 .hero {
     background-color: var(--primary-color);
@@ -109,7 +115,7 @@ line-height: 1.5;
 
 .about .responsive-cert {
     height: 220.47px;
-   width: auto;
+    width: auto;
 }
 
 @media (max-width:992px) {
