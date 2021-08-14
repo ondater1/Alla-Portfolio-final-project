@@ -29,6 +29,10 @@ h3, h4, h5 {
     color: var(--secondary-color);
 }
 
+a {
+    transition: all 150ms ease-in-out;
+}
+
 a:hover {
     color: var(--highlight-color);
     opacity: 0.8;
