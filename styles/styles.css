@@ -86,7 +86,7 @@ margin-top: 30px;
 .about h2 {
     background-color: var(--secondary-color);
     margin-bottom: 50px;
-    padding: 5px 2px;
+    padding: 5px 20px;
 }
 
 .about .about-text {
@@ -109,13 +109,10 @@ line-height: 1.5;
 
 .about .responsive-cert {
     height: 220.47px;
+   width: auto;
 }
 
-@media (max-width:765px) {
-
-     .container {
-         max-width: 100%;
-     }
+@media (max-width:992px) {
 
     h1 {
         font-size: 40px;
@@ -145,9 +142,11 @@ line-height: 1.5;
         margin-top: 10px;
     }
 
-
+.about {
+    padding: 0;
+}
     .about .certifications h5 {
-        margin-top: 20px;
+        margin-top: 30px;
         font-size: 25px;
     }
 
