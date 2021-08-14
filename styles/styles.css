@@ -38,6 +38,19 @@ a:hover {
     opacity: 0.8;
 }
 
+.header-logo {
+    max-height: 35px;
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
 .btn-common {
     background-color: var(--primary-color);
     color: var(--highlight-color);
@@ -83,10 +96,6 @@ margin-top: 30px;
     padding: 20px 40px;
 }
 
-.about {
-    padding: 100px 0;
-}
-
 
 .about h1 {
     background-color: var(--primary-color);
@@ -109,12 +118,18 @@ font-size: 11px;
 line-height: 1.5;
 }
 
+.about .tools-logo {
+    display:block;
+    margin: 0 auto;
+    max-height: 50px;
+}
+
 .about .certifications h5 {
     text-align: center;
 }
 
 .about-image {
-    max-width: 100%;
+    max-height: 400px;
 }
 
 .about .responsive-cert {
@@ -127,7 +142,7 @@ line-height: 1.5;
     padding: 10px 20px;
 }
 
-.projects .subtitle {
+.subtitle {
     font-size: 46px;
     margin: 50px 0;
     text-align: center;
@@ -184,9 +199,9 @@ line-height: 1.5;
         margin-top: 10px;
     }
 
-.about {
-    padding: 0;
-}
+    .about {
+        padding: 0;
+    }
     .about .certifications h5 {
         margin-top: 30px;
         font-size: 25px;
